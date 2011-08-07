@@ -1,0 +1,12 @@
+<?php
+/*
+Template Name: Two Column (Copy Left, Image Right)
+Version: 1.0
+*/
+
+?>
+<?php if( !empty( $image ) ): ?>
+<div class="sd-node sd-node-container">
+	<div class="sd-node sd-node-image"><img style="display:none;" src="<?php echo $image['src']; ?>" alt="<?php echo $title; ?>"<?php echo isset( $image['width'] ) ? ' width="' . $image['width'] . '"' : ''; ?><?php echo isset( $image['height'] ) ? ' height="' . $image['height'] . '"' : ''; ?> /></div>
+</div>
+<?php endif; ?>
