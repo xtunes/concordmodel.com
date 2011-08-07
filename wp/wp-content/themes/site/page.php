@@ -21,5 +21,6 @@ get_header(); ?>
 			
 
 			</div><!-- #content -->
+				<div class="clear"></div>
 
 <?php get_footer(); ?>
