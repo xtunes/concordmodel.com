@@ -50,6 +50,35 @@
 	 */
 	wp_head();
 ?>
+<script type="text/javascript" charset="utf-8"> 
+				var galleryLoaded=function(){
+					jQuery('#slider').after(jQuery('<a id="content-down-arrow" href="#"></a><a id="content-up-arrow" href="#"></a>'));
+					jQuery('#content-up-arrow').hide();
+				 	jQuery('#content-down-arrow').hide();
+					var pane=jQuery('.nivo-controlNav');
+					var contentHeight=pane.children().size()*92;
+				 	if(contentHeight>pane.height()){
+				 		jQuery('#content-down-arrow').show();
+				 		jQuery('#content-up-arrow').show();
+				 		jQuery('#content-up-arrow').click(function(e){
+				 			pane.scrollTop(pane.scrollTop()+50)
+				 			return false;
+				 		});
+				 		jQuery('#content-down-arrow').click(function(e){
+				 			pane.scrollTop(pane.scrollTop()-50)
+				 			return false;
+				 		});
+				 	}
+				}
+				  
+				jQuery(function($){
+	var href='/img/'+location.href.replace(/(https|http):\/\/[^\/*]*\//,'');
+  jQuery('img.category').each(function(){
+    var src=jQuery(this).attr('src');
+		jQuery(this).attr('src',href+src);
+  });
+});
+			</script> 
 </head>
 
 <body <?php body_class(); ?>>

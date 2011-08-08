@@ -210,6 +210,20 @@ body{background:#fff;font-family:Microsoft yahei;font-size:12px;}
 .contactinfo p{font-weight:bold;font-size:16px;}
 .contactinfo ul{margin-top:40px;}
 .contactinfo ul li{line-height:28px;font-size:14px;}
+.member{padding-right:40px;}
+.member h4{text-align:center;margin-top:10px}
+#slider_container{position:relative;width:400px;}
+#slider{height:600px !important;}
+div#slider_container .nivo_slider .nivo-controlNav a{display:block;}
+#content-up-arrow{background: url('../images/up_arrow.gif') no-repeat;width:44px;height:17px;position:absolute;right:-173px;top:0;background-position:0 0;}
+#content-up-arrow:hover{background-position:0 -17px;}
+#content-down-arrow:hover{background-position:0 -17px;}
+#content-down-arrow{background: url('../images/down_arrow.gif') no-repeat;width:44px;height:17px;position:absolute;right:-173px;bottom:0;background-position:0 0;}
+.nivo-controlNav{height:525px !important;width:200px;position:absolute;left:350px !important;top:40px;}
+.nivo-control{margin-bottom:10px !important;}
+.modelinfo{padding-right:200px;}
+.modelinfo h2{font-size:16px;}
+.modelinfo p{font-size:14px;}
 /* =Menu
 -------------------------------------------------------------- */
 
