@@ -87,9 +87,6 @@
 			<div class="logo">
 				<img src="/images/logo.jpg">
 			</div>
-		<div class="pagetitle">
-			<?php the_title(); ?>
-		</div>
 		<div class="clear"></div>
 		<div class="mainnav">
 			<div id="access" role="navigation">
