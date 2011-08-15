@@ -211,7 +211,7 @@ body{background:#fff;font-family:Microsoft yahei;font-size:14px;}
 .contactinfo ul{margin-top:40px;}
 .contactinfo ul li{line-height:28px;font-size:14px;}
 .member{padding:0 18px;}
-.member h4{text-align:center;margin-top:10px}
+.member h4{text-align:center;margin:5px;}
 #slider_container{position:relative;width:400px;}
 #slider{height:600px !important;}
 div#slider_container .nivo_slider .nivo-controlNav a{display:block;}
