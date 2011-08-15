@@ -210,7 +210,7 @@ body{background:#fff;font-family:Microsoft yahei;font-size:12px;}
 .contactinfo p{font-weight:bold;font-size:16px;}
 .contactinfo ul{margin-top:40px;}
 .contactinfo ul li{line-height:28px;font-size:14px;}
-.member{paddingt:0 18px;}
+.member{padding:0 18px;}
 .member h4{text-align:center;margin-top:10px}
 #slider_container{position:relative;width:400px;}
 #slider{height:600px !important;}
