@@ -199,12 +199,12 @@ img.aligncentered, div.aligncentered {text-align:center;margin:0 auto;}
  *
  * Author: Eric
  */
-body{background:#fff;font-family:Microsoft yahei;font-size:12px;}
+body{background:#fff;font-family:Microsoft yahei;font-size:14px;}
 .container { margin:0 auto; width:960px;position:relative;}
 .logo{width:450px;float:left;margin-top:30px;display:inline;}
 .pagetitle{background:#bbe0e3;padding:10px 30px;float:right;margin-top:30px;display:inline;font-size:24px;}
 .mainnav{border-bottom:2px solid #808080;width:100%;height:auto;margin-top:20px;}
-#content{min-height:400px;}
+#content{min-height:400px;line-height:22px;}
 .siteinfo{text-align:center;border-top:1px solid #9D9D9D;padding-top:10px;}
 .contactinfo{margin-left:40px;float:left;}
 .contactinfo p{font-weight:bold;font-size:16px;}
