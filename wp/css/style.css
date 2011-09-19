@@ -228,6 +228,7 @@ div#slider_container .nivo_slider .nivo-controlNav a{display:block;}
 .slideshowlink{display:none;}
 .breadcrumbs{ color: #988E8C; margin-left: 45px;margin-top: 15px;}
 .music-stop,music-play{cursor: pointer;}
+.meteor-slides{margin:0 auto !important;}
 /* =Menu
 -------------------------------------------------------------- */
 
