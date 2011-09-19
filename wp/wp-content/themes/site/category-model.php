@@ -11,6 +11,7 @@ get_header(); ?>
 
 					<div id="content" role="main">
 					<div style="margin:40px auto;width:915px;">
+						<?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>
 						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <div class="left member">
 <a href="<?php the_permalink() ?>"><?php the_post_thumbnail('full');?><h4><?php the_title(); ?></h4></a>
