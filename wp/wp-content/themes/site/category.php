@@ -16,7 +16,7 @@ get_header(); ?>
 				?></h1>
 				<div style="margin:40px auto;width:860px;">
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<div><span><?php the_time('Y年m月j日') ?></span><a href="<?php the_permalink() ?>"><span><strong><?php the_title(); ?><strong></span></a></div>
+<div><span><?php the_time('Y年m月j日') ?></span><a href="<?php the_permalink() ?>"><span><strong><?php the_title(); ?></strong></span></a></div>
 				   <?php endwhile; endif; ?>
 				  				 <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
 				 </div>
