@@ -229,6 +229,8 @@ div#slider_container .nivo_slider .nivo-controlNav a{display:block;}
 .breadcrumbs{ color: #988E8C; margin-left: 45px;margin-top: 15px;}
 .music-stop,music-play{cursor: pointer;}
 .meteor-slides{margin:0 auto !important;padding-bottom:20px !important;}
+.skin-image_no_caption dl.slidedeck dd{background:none !important;}
+.skin-image_no_caption dl.slidedeck{background:#none !important;}
 /* =Menu
 -------------------------------------------------------------- */
 
