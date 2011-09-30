@@ -264,7 +264,6 @@ div.menu li {
 	padding: 0 48px;
 	text-decoration: none;
 	font-weight:bold;
-	text-shadow: 1px 1px 1px #c2c2c2;
 }
 #access ul ul {
 	box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
@@ -275,26 +274,28 @@ div.menu li {
 	top: 38px;
 	left: 0;
 	float: left;
-	width: 180px;
+	width: 128px;
 	z-index: 99999;
 }
 #access ul ul li {
 	min-width: 180px;
+	text-align:center;
 }
 #access ul ul ul {
 	left: 100%;
 	top: 0;
 }
 #access ul ul a {
-	background: #000;
+	background: #bfb9b9;
 	line-height: 1em;
 	padding: 10px;
-	width: 160px;
+	width: 108px;
 	height: auto;
+	color:#fff;
 }
 #access li:hover > a,
 #access ul ul :hover > a {
-	background: #000;
+	background: #b1adb0;
 	color: #fff;
 }
 #access ul li:hover > ul {
@@ -304,7 +305,7 @@ div.menu li {
 #access ul li.current-menu-ancestor > a,
 #access ul li.current-menu-item > a,
 #access ul li.current-menu-parent > a {
-	color: #808080;
+	color: #6e6b63;
 }
 #access ul li.current_page_item > a:hover{
 	color:#fff;
